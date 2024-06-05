@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Signed Network Dataset Collection Repository </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./bootstrap.css" media="screen">
+    <link rel="stylesheet" href="./bootstrap(1).css" media="screen">
+    <link rel="stylesheet" href="./custom.min.css">
+    <script type="text/javascript" async="" src="./ga.js.download"></script>
+    <script src="./d3.v4.0.0-alpha.49.min.js.download"></script>
+
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="../bower_components/html5shiv/dist/html5shiv.js"></script>
+    <script src="../bower_components/respond/dest/respond.min.js"></script>
+    <![endif]-->
+    <script>
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-23019901-1']);
+      _gaq.push(['_setDomainName', "bootswatch.com"]);
+      _gaq.push(['_setAllowLinker', true]);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+    <style>
+      .title_box {background-color: #93dbef; text-align: center;  margin-top: 0;}
+      .title_box h1{color: #000000; text-shadow: 1pt 1pt 1pt #000; font-size:40pt;}
+      .title_box h1.symbol{color: #000000; font-size:50pt; font-weight:bold;}
+      .title_box .description{text-align:justify; color:#cccccc; text-shadow: 1px 1px 0px #000; font-size:13pt; }
+      .navbar-my {background-color: #000000; color: #000;}
+      .content_box {font-size:14pt;}
+      h2{font-size: 25pt; color: #2e72b7; padding-top: 80px; margin-top: -80px; }
+	  a{color:#2e72b7;}
+	  a:hover{color:#2e72b7;}
+
+    </style>
+
+  </head>
+
+  <body>
+
+          
+
+      <div class="title_box jumbotron">
+        <div class="container">
+          <!--<h1 class="glyphicon glyphicon-plus-sign symbol" aria-hidden="true">&nbsp;</h1>
+          <h1 class="glyphicon glyphicon-minus-sign symbol" aria-hidden="true"></h1>-->
+		  <h1> Signed Network Dataset Collection Repository</h1>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="content_box">
+          <a name="overview"></a>
+          <h2>Overview </h2>
+          Welcome to the Signed Network Dataset Collection Repository (SigNET Repo), your gateway to a diverse collection of signed network datasets.
+          Our repository is a valuable resource for researchers, data enthusiasts, and anyone interested in exploring the intricate
+          dynamics of signed networks. In the world of signed networks, relationships between entities can be both positive and negative,
+          reflecting the complexities of human interactions. Our repository offers datasets from various domains, including social
+          networks, trust networks and more. Whether you're studying commmunity detection, link and sign prediction, trust prediction, 
+          conflict resolution, node classification, or link strength prediction, these datasets provide the foundation for innovative 
+          research and insights. Join us on a journey through the fascinating world of signed networks and contribute to the advancement 
+          of network science and social analysis.
+<br>
+          <br><br>
+          <a name="SN"></a>
+          <h2>Signed Network Datasets </h2>
+
+
+          <style>
+            h3 {
+                color: #2e72b7; /* Change this to the color of your choice using a valid CSS color value */
+            }
+          </style>
+            
+            <h3 align="center"><img src="icon.gif" alt="New Dataset Icon"> New Datasets</h3>
+        <div class="table_scrollable">
+          <style>
+              .table {
+                  border-collapse: collapse;
+                  width: 100%;
+              }
+      
+              .table th, .table td {
+                  border: 1px solid #ddd;
+                  padding: 8px;
+                  text-align: center;
+              }
+      
+              .table th {
+                  background-color: #f2f2f2;
+              }
+      
+              .table tr:hover {
+                  background-color: #f5f5f5;
+              }
+          </style>
+      
+          <table class="table">
+              <thead>
+                  <tr>
+                      <th>Name</th>
+                      <th align="center">#Nodes</th>
+                      <th align="center">#Edges</th>
+                      <th>Description</th>                      
+                      <th>Published In</th>
+                      <th>Reference Link</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  
+                  <tr>
+                    <td>Reddit Posts</td>
+                    <td align="center">N&#x2081;= 59,352 N&#x2082;= 103</td>
+                    <td align="center">80938</td>
+                    <td>Signed Bipartite netowrk of Reddit Posts with 2-level edge features and Node level features</td>
+                
+                    <td>2024, ICWSM</td>               
+                    <td><a href="https://github.com/Aikta-Arya/Reddit-Posts-Dataset.git">Link</a></td>
+                  </tr>
+
+                  <tr>
+                    <td>Bitcoin-ALPHA</td>
+                    <td align="center">3,755</td>
+                    <td align="center">24,207</td>
+                    <td>Trust social network in Bitcoin-ALPHA service with 1-level edge features and Node level features</td>
+                    
+                    <td>2024, ICWSM</td>               
+                    <td><a href="https://github.com/Aikta-Arya/Bitcoin-Network-Datasets.git">Link</a></td>
+                  </tr>
+
+                  <tr>
+                    <td>Bitcoin-OTC</td>
+                    <td align="center">5,927</td>
+                    <td align="center">36,029</td>
+                    <td>Trust social network in Bitcoin-OTC service with 1-level edge features and Node level features</td>
+                    
+                    <td>2024, ICWSM</td>               
+                    <td><a href="https://github.com/Aikta-Arya/Bitcoin-Network-Datasets.git">Link</a></td>
+                  </tr>
+                                                       
+              </tbody>
+          </table>
+      </div>
+
+
+          <br><br>
+          <h3 align="center">Unipartite Directed Networks </h3>
+          <div class="table_scrollable">
+            <style>
+                .table {
+                    border-collapse: collapse;
+                    width: 100%;
+                }
+        
+                .table th, .table td {
+                    border: 1px solid #ddd;
+                    padding: 8px;
+                    text-align: center;
+                }
+        
+                .table th {
+                    background-color: #f2f2f2;
+                }
+        
+                .table tr:hover {
+                    background-color: #f5f5f5;
+                }
+            </style>
+        
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th align="center">#Nodes</th>
+                        <th align="center">#Edges</th>
+                        <th>Description</th>
+                        
+                        <th>Published In</th>
+                        <th>Reference Link</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Congress</td>
+                        <td align="center">219</td>
+                        <td align="center">764</td>
+                        <td>Politician network</td>                       
+                        
+                        <td>2006, EMNLP</td> 
+                        <td><a href="https://www.cs.cornell.edu/home/llee/data/convote.html">Link</a></td>
+                    </tr>
+                    <!-- <tr>
+                      <td>BirdwatchSG</td>
+                      <td align="center">2,987</td>
+                      <td align="center">4,41,986</td>
+                      <td>Birdwatch Signed Graph drawn from note ratings on the Birdwatch pilot</td>                       
+                      
+                      <td>2023, WSDM</td> 
+                      <td><a href="https://huggingface.co/datasets/Twitter/SignedGraphs">Link</a></td>
+                    </tr> -->
+                    <tr>
+                        <td>BitcoinA</td>
+                        <td align="center">3,783</td>
+                        <td align="center">24,186</td>
+                        <td>Trust social network in Bitcoin-ALPHA service</td>
+                       
+                        <td>2016, ICDM</td>                        
+                        <td><a href="https://snap.stanford.edu/data/soc-sign-bitcoin-alpha.html">Link</a></td>
+                    </tr>
+                    <tr>
+                      <td>BitcoinO</td>
+                      <td align="center">5,881</td>
+                      <td align="center">35,592</td>
+                      <td>Trust social network in Bitcoin-OTC service</td>                      
+                      
+                      <td>2016, ICDM</td> 
+                      <td><a href="https://snap.stanford.edu/data/soc-sign-bitcoin-otc.html">Link</a></td>
+                    </tr>
+                    <tr>
+                      <td>Chess</td>
+                      <td align="center">7,301</td>
+                      <td align="center">65,053</td>
+                      <td>Results of chess games</td>                      
+                      
+                      <td>2013, WWW</td> 
+                      <td><a href="http://konect.cc/networks/chess/">Link</a></td>
+                    </tr>
+                    <tr>
+                      <td>Wiki Election</td>
+                      <td align="center">7,000</td>
+                      <td align="center">1,00,000	</td>
+                      <td>Wikipedia adminship election data</td>                      
+                     
+                      <td>2010, CHI</td> 
+                      <td><a href="https://snap.stanford.edu/data/wiki-Elec.html">Link</a></td>
+                    </tr>
+                    <tr>
+                      <td>Wiki Rfa</td>
+                      <td align="center">10,835</td>
+                      <td align="center">1,59,388</td>
+                      <td>Wikipedia Requests for Adminship</td>                      
+                      
+                      <td>2014, TACL</td> 
+                      <td><a href="https://snap.stanford.edu/data/wiki-RfA.html">Link</a></td>
+                    </tr>
+                    <tr>
+                      <td>Slashdot</td>
+                      <td align="center">77,357</td>
+                      <td align="center">5,16,575</td>
+                      <td>Slashdot Zoo signed social network from November 6 2008</td>                      
+                      
+                      <td>2010, CHI</td> 
+                      <td><a href="https://snap.stanford.edu/data/soc-sign-Slashdot081106.html">Link</a></td>
+                    </tr>
+                    <tr>
+                      <td>Slashdot</td>
+                      <td align="center">81,871</td>
+                      <td align="center">5,45,671</td>
+                      <td>Slashdot Zoo signed social network from February 16 2009</td>                      
+                      
+                      <td>2010, CHI</td> 
+                      <td><a href="https://snap.stanford.edu/data/soc-sign-Slashdot090216.html">Link</a></td>
+                    </tr>
+                    <tr>
+                      <td>Slashdot</td>
+                      <td align="center">82,140</td>
+                      <td align="center">5,49,202</td>
+                      <td>Slashdot Zoo signed social network from February 21 2009</td>                      
+                     
+                      <td>2010, CHI</td> 
+                      <td><a href="https://snap.stanford.edu/data/soc-sign-Slashdot090221.html">Link</a></td>
+                    </tr>                    
+                    <tr>
+                      <td>Epinions</td>
+                      <td align="center">1,31,828</td>
+                      <td align="center">8,41,372</td>
+                      <td>Epinions signed social network</td>
+                     
+                      <td>2010,CHI</td>               
+                      <td><a href="https://snap.stanford.edu/data/soc-sign-epinions.html">Link</a></td>
+                    </tr>
+                    <tr>
+                      <td>WikiSigned</td>
+                      <td align="center">1,38,592</td>
+                      <td align="center">7,40,397</td>
+                      <td>WikiSigned signed social network of English Wikipedia pages</td>
+                      
+                      <td>2013, WWW</td>               
+                      <td><a href="http://konect.cc/networks/wikisigned-k2/">Link</a></td>
+                    </tr>
+                    <!-- <tr>
+                      <td>TwitterSG</td>
+                      <td align="center">7,53,944</td>
+                      <td align="center">12,848,093</td>
+                      <td>TwitterSG Signed Graph drawn from Twitter interactions</td>                       
+                     
+                      <td>2023, WSDM</td> 
+                      <td><a href="https://huggingface.co/datasets/Twitter/SignedGraphs">Link</a></td>
+                    </tr> -->
+
+                                       
+                </tbody>
+            </table>
+        </div>
+
+        <br><br>
+        <h3 align="center">Unipartite Undirected Networks</h3>
+        <div class="table_scrollable">
+          <style>
+              .table {
+                  border-collapse: collapse;
+                  width: 100%;
+              }
+      
+              .table th, .table td {
+                  border: 1px solid #ddd;
+                  padding: 8px;
+                  text-align: center;
+              }
+      
+              .table th {
+                  background-color: #f2f2f2;
+              }
+      
+              .table tr:hover {
+                  background-color: #f5f5f5;
+              }
+          </style>
+      
+          <table class="table">
+              <thead>
+                  <tr>
+                      <th>Name</th>
+                      <th align="center">#Nodes</th>
+                      <th align="center">#Edges</th>
+                      <th>Description</th>
+                      
+                      <th>Published In</th>
+                      <th>Reference Link</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  
+                  <tr>
+                    <td>WikiConflict</td>
+                    <td align="center">1,18,100</td>
+                    <td align="center">2,917,785</td>
+                    <td>WikiConflict signed social network of English Wikipedia page users involved in an edit-war</td>
+                    
+                    <td>2013, WWW</td>               
+                    <td><a href="http://konect.cc/networks/wikiconflict/">Link</a></td>
+                  </tr>
+                                                       
+              </tbody>
+          </table>
+      </div>
+
+
+
+
+        <br><br>
+        <h3 align="center">Bipartite Networks </h3>
+        <div class="table_scrollable">
+          <style>
+              .table {
+                  border-collapse: collapse;
+                  width: 100%;
+              }
+      
+              .table th, .table td {
+                  border: 1px solid #ddd;
+                  padding: 8px;
+                  text-align: center;
+              }
+      
+              .table th {
+                  background-color: #f2f2f2;
+              }
+      
+              .table tr:hover {
+                  background-color: #f5f5f5;
+              }
+          </style>
+      
+          <table class="table">
+              <thead>
+                  <tr>
+                      <th>Name</th>
+                      <th align="center">#Nodes</th>
+                      <th align="center">#Edges</th>
+                      <th>Description</th>
+                      
+                      <th>Published In</th>
+                      <th>Reference Link</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  
+                  <tr>
+                    <td>Bonanza</td>
+                    <td align="center">N&#x2081;= 7,919 N&#x2082;= 1,973</td>
+                    <td align="center">36,543</td>
+                    <td>Signed bipartite network from the e-commerce website Bonanza</td>
+                    
+                    <td>2019, CIKM</td>               
+                    <td><a href="https://github.com/tylersnetwork/signed_bipartite_networks/tree/master/data">Link</a></td>
+                  </tr>
+                  <tr>
+                    <td>U.S. Senate</td>
+                    <td align="center">N&#x2081;= 1,056 N&#x2082;= 145</td>
+                    <td align="center">27,083</td>
+                    <td>Network of role call votes combined from the 1st to 10th United States Congress (U.S. Senate)</td>
+                   
+                    <td>2019, CIKM</td>               
+                    <td><a href="https://github.com/tylersnetwork/signed_bipartite_networks/tree/master/data">Link</a></td>
+                  </tr>
+                  <tr>
+                    <td>U.S. House of Representatives</td>
+                    <td align="center">N&#x2081;= 1,281 N&#x2082;= 515</td>
+                    <td align="center">114,378</td>
+                    <td>Network of role call votes combined from the 1st to 10th United States Congress (U.S. House)</td>
+                   
+                    <td>2019, CIKM</td>               
+                    <td><a href="https://github.com/tylersnetwork/signed_bipartite_networks/tree/master/data">Link</a></td>
+                  </tr>
+                                                       
+              </tbody>
+          </table>
+      </div>
+
+      
+
+
+          <br><br>
+          <a name="people"></a>
+	        <h2>People</h2>
+          <ul>
+		      <li><a href="https://aiktarya.wixsite.com/aikta">Aikta Arya</a> (Indian Institute Of Technology Roorkee, India)</li>
+		      <li><a href="https://www.iitr.ac.in/~CSE/Pradumn_K__Pandey">Pradumn Kumar Pandey</a> (Indian Institute Of Technology Roorkee, India)</li>
+		      <li><a href="https://engineering.vanderbilt.edu/bio/tyler-derr">Tyler Derr</a> (Vanderbilt University, United States)</li>
+	        </ul>
+	    
+          </div>
+        </div>	
+      </div>
+
+
+      <div class="navblank">
+      </div>
+      <div class="navblank">
+      </div>
+
+      <!--<script type="text/javascript" src="resources/js/jquery-1.9.1.js"></script>
+      <script type="text/javascript" src="resources/js/bootstrap.min.js"></script>
+      <script src="http://code.highcharts.com/highcharts.js"></script>
+      <script src="http://code.highcharts.com/modules/exporting.js"></script>-->
+  
+</body></html>
